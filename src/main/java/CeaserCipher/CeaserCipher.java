@@ -7,7 +7,7 @@ public class CeaserCipher {
         final int alphaLength = 26;
         final char asciiShift = Character.isUpperCase(c) ? 'A' : 'a';
         final int cipherShift = k % alphaLength;
-        
+
         // we shift down to 0..25 for a..z
         char shifted = (char) (c - asciiShift);
 
