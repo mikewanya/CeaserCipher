@@ -5,21 +5,13 @@ import static org.junit.Assert.*;
 public class CeaserCipherTest{
 
     @Test
-    public void encrypt_getsUserTextInput_String(){
-        CeaserCipher testCaesar = new CeaserCipher();
-        testCaesar.encrypt("sample",2);
-        assertEquals("sample", testCaesar.getText());
+    public void rotateCharacter_ShiftsCharacterCorrectNumberofTimesAtEndOfAlphabet_char(){
+        char input='x';
+        char expectedOutput='h';
+
+        assertEquals(expectedOutput, CeaserCipher.cipher(input, 10));
     }
-    @Test
-    public void encrypt_getShiftKeyInput_Int(){
-        CeaserCipher testCaesar = new CeaserCipher();
-        testCaesar.encrypt("sample",2);
-        assertEquals(2,testCaesar.getShift());
-    }
-    @Test
-    public void encrypt_encryptWithAShiftOf2_String(){
-        CeaserCipher testCaesar = new CeaserCipher();
-        testCaesar.encrypt("sample",2);
-        assertEquals("ucorng",testCaesar.encrypt("sample",2));
-    }
+
+    
+
 }

@@ -6,10 +6,10 @@ This is an encryption program that takes in text input from a user and encrypts 
 
 ## Project Setup Instructions
 Follow the following setup instructions to run the program.
-*Install the java software development kit (sdk)
-*Install java 
-*Install gradle 
-*To run the program in the terminal you can use 'gradle run' command
+* Install the java software development kit (sdk)
+* Install java
+* Install gradle
+* To run the program in the terminal you can use 'gradle run' command
 
 ## B.D.D
 
