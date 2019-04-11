@@ -31,5 +31,5 @@ Follow the following setup instructions to run the program.
 no bugs yet
 
 
-Copyright (c) 2019
+Copyright (c) 2019 [MIT LICENSE](./LICENSE)
 
