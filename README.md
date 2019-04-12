@@ -20,7 +20,7 @@ Follow the following setup instructions to run the program.
 | decrypts encrypted string| input string | displays the dencrypted text   |
 
 
-## technologies used
+## Technologies Used
 * Intelli J IDEA
 * java
 * Git
