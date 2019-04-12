@@ -28,9 +28,13 @@ public class App {
 
 
         System.out.println("Password:\t" + password);
-        String encryption = cipher(password, key);
+        CeaserCipher ceaserCipher = new CeaserCipher(password,key);
+        String encryption = ceaserCipher.cipher();
         System.out.println("Encrypted:\t" + encryption);
-        System.out.println("Decrypted:\t" + cipher(encryption, -key));
+
+        //decryption
+        CeaserCipher ceaserCipherDec = new CeaserCipher(encryption,-key);
+        System.out.println("Decrypted:\t" + ceaserCipherDec.cipher());
 
     }
 }
